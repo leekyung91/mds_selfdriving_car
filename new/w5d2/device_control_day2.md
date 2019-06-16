@@ -71,6 +71,7 @@ void Uart_Init(int baud)
 > 소스 파악 노하우  
 > UART 관련 소스 볼때 매뉴얼에서 UART 전부 보는게 아닌  
 > 우선 소스에서 해당 하는 함수에서 사용하는 레지스터만 찾아보기  
+> 레지스터는 사람이 기계를 제어하기위해 사용하는 것이기 때문에 무엇을 제어하고자 하는지만 찾아보는게 핵심!!  
 > 위 소스에서 사용한 레지스터   
 > * rGPHCON, rUFCON1, rUMCON1, rULCON1, rUCON1, rUBRDIV1
 
@@ -104,6 +105,20 @@ void Uart_Init(int baud)
 
 - UART 통신시 파일을 안깨지게 보내려면
   - ms 에서 만든 하이퍼 터미널을 설치
+  
+### UART 통신 교재내용 추가
+- ![](./0616_004.png)  
+- FLOW CONTROL
+  - 흐름 제어는 데이터의 폭주를 방지하기 위함
+  - 보통 사용하지 않는데 주로 CCTV에서 사용 
+- UART 제어를 위한 방식 3가지
+  - DMA 방식
+  - Polling 방식
+  - 인터럽트 방식
+- rUBRDIV1 레지스터 추가설명
+  - UART는 비동기식으로 데이터 통신을 하기 때문에, Tx, Rx의 속도를 맞추기 위해 Baud rate를 사용
+  - 즉, baud rate generator의 클럭에 맞추어 데이터를 주고 받는다. 
+  - UART clock source == PCLK
 
 ## minicom 사용
   - 초기과정
@@ -190,3 +205,5 @@ void Timer_Delay(int msec)
 	}	 
 #endif // TIMER_TEST
 ```
+
+[ddddd](https://github.com/leekyung91/mds_selfdriving_car/blob/master/new/w5d2/device_control_day2.md#2%EC%9D%BC%EC%B0%A8)
