@@ -1,0 +1,18 @@
+NETWORK=`echo $1 | sed -e 's/\.\([^\.]*\)$//g'`
+IP=`echo $1 | sed -e 's/^\([^\.]*\)\.\([^\.]*\)\.\([^\.]*\)\.//g'`
+HOSTIP=`echo "$NETWORK"`.`echo $1 | sed -e 's/^\([^\.]*\)\.\([^\.]*\)\.\([^\.]*\)\.//g'`
+x=`expr $IP + 1`
+TARGETIP=`echo "$NETWORK.$x"`
+echo ''
+echo "set bootargs 'mem=64M root=/dev/nfs rw nfsroot=$HOSTIP:/usr/local/arm-2010q1/arm-none-linux-gnueabi/sys-root ip=$TARGETIP:$HOSTIP:$NETWORK.1:255.255.255.0::eth0:off console=ttySAC1,115200n81'"
+echo "set gatewayip $NETWORK.1"
+echo "set netmask 255.255.255.0"
+echo "set ipaddr $TARGETIP"
+echo "set serverip $HOSTIP"
+echo "set bootcmd 'tftp 0xC0008000 uImage-m2450;bootm 0xC0008000'"
+echo "set boot test"
+echo ''
+
+#./getBootEnv HOSTADDR
+
+

@@ -1,0 +1,38 @@
+[Source Media Descriptions]
+	"1", "disk1", "delpassw.tt_", "."
+
+[Default File Settings]
+"STF_BACKUP"     = ""
+"STF_COPY"       = "YES"
+"STF_DECOMPRESS" = "YES"
+"STF_OVERWRITE"  = "ALWAYS"
+"STF_READONLY"   = "YES"
+"STF_ROOT"       = ""
+"STF_SETTIME"    = "YES"
+"STF_TIME"       = "0"
+"STF_VITAL"      = "YES"
+
+[Files]
+	1, delpassw.tt_,,,, 1997-06-30,,,, !READONLY,, delpassw.ttl,,,, 256,,,,,
+	1, dialup.tt_,,,, 1997-06-30,,,, !READONLY,, dialup.ttl,,,, 1115,,,,,
+	1, keycode.ex_,,,, 1998-03-10,,,, !READONLY,, keycode.exe,,,, 30720,,,,,
+	1, keycode.tx_,,,, 1998-03-10,,,, !READONLY,, keycode.txt,,,, 13538,,,,,
+	1, keycodej.tx_,,,, 1998-03-10,,,, !READONLY,, keycodej.txt,,,, 14343,,,,,
+	1, login.tt_,,,, 1997-06-30,,,, !READONLY,, login.ttl,,,, 446,,,,,
+	1, macro.hl_,,,, 1998-03-10,,,, !READONLY,, macro.hlp,,,, 70868,,,,,
+	1, macroj.hl_,,,, 1998-03-10,,,, !READONLY,, macroj.hlp,,,, 74086,,,,,
+	1, readme.txt,,,, 1998-03-10, !DECOMPRESS,,, !READONLY,,,,,, 4962,,,,,
+	1, readmej.txt,,,, 1998-03-10, !DECOMPRESS,,, !READONLY,,,,,, 5413,,,,,
+	1, tspecial.tt_,,,, 1997-06-30,,,, !READONLY,, tspecial.ttf,,,, 7276,,,,,
+	1, ttermp.hl_,,,, 1998-03-10,,,, !READONLY,, ttermp.hlp,,,, 82559,,,,,
+	1, ttermpj.hl_,,,, 1998-03-10,,,, !READONLY,, ttermpj.hlp,,,, 109222,,,,,
+	1, ttermpro.ex_,,,, 1998-03-10,,,, !READONLY,, ttermpro.exe,,,, 251904,,,,,
+	1, ttpcmn.dl_,,,, 1998-03-10,,,, !READONLY,, ttpcmn.dll,,,, 56320,,,,,
+	1, ttpdlg.dl_,,,, 1998-03-10,,,, !READONLY,, ttpdlg.dll,,,, 86016,,,,,
+	1, ttpfile.dl_,,,, 1998-03-10,,,, !READONLY,, ttpfile.dll,,,, 108544,,,,,
+	1, ttpmacro.ex_,,,, 1998-03-10,,,, !READONLY,, ttpmacro.exe,,,, 188416,,,,,
+	1, ttpset.dl_,,,, 1998-03-10,,,, !READONLY,, ttpset.dll,,,, 77824,,,,,
+	1, ttptek.dl_,,,, 1998-03-10,,,, !READONLY,, ttptek.dll,,,, 80384,,,,,
+
+[Win Files]
+	1, ttuninst.ex_,,,, 1998-03-10,,,, !READONLY,, ttuninst.exe,,,, 42496,,,,,

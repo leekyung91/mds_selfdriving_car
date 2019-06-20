@@ -1,0 +1,8 @@
+libc.o: libc.c 2450addr.h option.h stdarg.h my_lib.h
+Main.o: Main.c my_lib.h option.h 2450addr.h
+Uart.o: Uart.c 2450addr.h option.h stdarg.h
+timer.o: timer.c 2450addr.h option.h my_lib.h
+Dma.o: Dma.c 2450addr.h option.h my_lib.h
+exception.o: exception.c 2450addr.h option.h macro.h
+s3c2450_startup.o: s3c2450_startup.S 2450addr.inc
+libs.o: libs.S
