@@ -211,6 +211,23 @@
 * 스택부분은 없다!! 사용자가 관리 
 
 ## startup.S
+
+```c
+    /* macro 정의 */
+        .macro HANDLER, HandlerLabel, HandleLabel
+    HandlerDabort:
+        sub		sp,sp,#4
+        stmfd	sp!,{r0}
+                                
+        ldr		r0,=HandlerDabort 
+        ldr		r0,[r0]         		
+        str		r0,[sp,#4]      	
+        ldmfd	sp!,{r0,pc}     	
+        .endm
+
+        Dabort_Handlerc
+```
+
 ```c
 ...
 	/* CONFIG_CLK_534_133_66	*/
