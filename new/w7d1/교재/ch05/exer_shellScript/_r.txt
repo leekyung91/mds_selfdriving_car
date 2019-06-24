@@ -1,0 +1,22 @@
+;for
+-> $./for
+
+;case
+;
+; input number with case : 0,5,9 and others
+;
+; eg, case 5
+;
+-> $./case 
+
+
+;hello
+-> $./hello
+
+;while
+-> $./while
+
+
+;while2_expr
+-> $./while2_expr
+

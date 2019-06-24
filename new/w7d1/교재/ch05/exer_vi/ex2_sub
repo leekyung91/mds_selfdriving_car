@@ -1,0 +1,15 @@
+﻿void output_file(FILE *fp)
+{
+   int ch, line=1;
+
+// TODO : change fllag -> flag
+   if(fllag)
+      printf("1   ");
+
+   while((ch=getc(fp)) != EOF) {
+      putc(ch, stdout);
+
+      if(flag && ch=='\n')
+         printf("%-4d", ++line);
+   }
+}

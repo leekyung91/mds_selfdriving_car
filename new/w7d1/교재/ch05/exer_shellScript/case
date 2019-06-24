@@ -1,0 +1,12 @@
+#!/bin/bash
+
+x=8
+case $1 in
+0)echo "0"
+;;
+5)echo "5"
+;;
+9)echo "9"
+;;
+*)echo "unrecognized value"
+esac
