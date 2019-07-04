@@ -296,10 +296,41 @@ int main(void)
     * D0 -> D
     * D1 -> S
 
+## 메모리 접근
+* 한정된 메모리에 절대주소를 담을수 없기 때문에 이런방식은 사용하지 않아
+* 레지스터에 base 주소를 저장하고 
+  * 그 base 주소에 offset를 더해서 접근하는 방법을 사용해야 
+* ST.W [A10]0x9, D1
+  * A10의 주소에 0x9(offset)를 더해서 접근
+  * 즉, 주소를 가공해서 절대 주소처럼 접근하는 방식     
+
+## 시스템 명령어
+* system call : 접근 권한
+* sysnchronization primitives(DYSNC and ISYNC)
+  * 시스템적으로 캐시를 밀어버리거나 파이프라인을 비워버리게 하는것
+* CSFRs
+* RET,RFE : return 관련
+* trap 
+* nop : 한 클럭을 연산없이 보내는 것
 
 
-![](./0704_025.png)   
-![](./0704_026.png)   
-
-
+1. ![](./0704_025.png)   
+2. ![](./0704_026.png)   
+3. ![](./0704_028.png)   
+4. ![](./0704_029.png)   
+5. 빌드만 하고 
+6. ![](./0704_030.png)   
+   1. mc를 클릭
+   2. sys.up 명령어 
+* 코드 보는 방법
+  *  하나하나 step 하면서 모르면 매뉴얼 읽기
+  *  ![](./0704_033.png)   
+  *  ![](./0704_034.png)   
+  *  ![](./0704_032.png)   
+     *  mfcr, mtcr
+        *  m : move, f : from, core : core, r : register
+           *  LD
+        *  m : move, t : to, core : core, r : register
+           *  ST
+        *  ![](./0704_035.png)   
 
