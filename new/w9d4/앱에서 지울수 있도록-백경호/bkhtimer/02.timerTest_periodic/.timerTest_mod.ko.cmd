@@ -1,0 +1,1 @@
+cmd_/mnt/hgfs/nfs/02.timerTest_periodic/timerTest_mod.ko := arm-none-linux-gnueabi-ld -EL -r  -T /root/kernel-mds2450-3.0.22/scripts/module-common.lds --build-id  -o /mnt/hgfs/nfs/02.timerTest_periodic/timerTest_mod.ko /mnt/hgfs/nfs/02.timerTest_periodic/timerTest_mod.o /mnt/hgfs/nfs/02.timerTest_periodic/timerTest_mod.mod.o
