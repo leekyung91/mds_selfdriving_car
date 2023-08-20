@@ -3,7 +3,7 @@
 
 |주|일|링크|비고|  
 |:--:|:--:|:--:|:--:|  
-|5주차|2일차|[정리링크](https://github.com/leekyung91/mds_selfdriving_car/blob/master/new/w5d2/device_control_day2.md#2%EC%9D%BC%EC%B0%A8)||  
+|5주차|2일차|[정리링크](https://github.com/leekyung91/mds_selfdriving_car/blob/master/new/w5d2/device_control_day2.md#2%EC%9D%BC%EC%B0%A8)|차량용 프로세서 디바이스 제어|  
 ||3일차|[정리링크](https://github.com/leekyung91/mds_selfdriving_car/blob/master/new/w5d3/device_control_day3.md#3%EC%9D%BC%EC%B0%A8)||
 ||4일차|[정리링크](https://github.com/leekyung91/mds_selfdriving_car/blob/master/new/w5d4/device_control_day4.md#4%EC%9D%BC%EC%B0%A8)|교재 참고|
 ||5일차|[정리링크](https://github.com/leekyung91/mds_selfdriving_car/blob/master/new/w5d5/device_control_day5.md#5%EC%9D%BC%EC%B0%A8)||
