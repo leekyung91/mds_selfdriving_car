@@ -21,9 +21,9 @@
 |8주차|1일차|[정리링크]()||
 ||2일차|[정리링크]()||
 ||3일차|[정리링크]()||
-||4일차|[정리링크](https://github.com/leekyung91/mds_selfdriving_car/blob/master/new/w8d4/car_sw_pro4.md)|디바이스 드라이버 교육|
+||4일차|[정리링크](https://github.com/leekyung91/mds_selfdriving_car/blob/master/new/w8d4/car_sw_pro4.md)||
 ||5일차|[정리링크](https://github.com/leekyung91/mds_selfdriving_car/blob/master/new/w8d5/car_sw_pro5.md)||
-|9주차|1일차|[정리링크](https://github.com/leekyung91/mds_selfdriving_car/blob/master/new/w9d1/car_os_device1.md)||
+|9주차|1일차|[정리링크](https://github.com/leekyung91/mds_selfdriving_car/blob/master/new/w9d1/car_os_device1.md)|디바이스 드라이버 교육|
 ||2일차|[정리링크](https://github.com/leekyung91/mds_selfdriving_car/blob/master/new/w9d2/device_control_2.md)||
 ||3일차|[정리링크](https://github.com/leekyung91/mds_selfdriving_car/blob/master/new/w9d3/device_driver_control_3.md)||
 ||4일차|[정리링크](https://github.com/leekyung91/mds_selfdriving_car/blob/master/new/w9d4/device_driver_control_4.md)||
